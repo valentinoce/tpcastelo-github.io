@@ -1,0 +1,75 @@
+body {
+    background-color: #121212 !important;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin-top: 20px;
+    display: -ms-grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+p{
+    color: #FFFFFF;
+}
+h1{
+    color: #FFFFFF;
+}
+h2{
+    color: #FFFFFF;
+}
+ul {
+    color: #BBBBBB;
+}
+.contenido-1 {
+    display: grid;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #1E1E1E;
+    margin: 20px auto;
+    padding: 25px;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+.contenedor-2{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #1E1E1E;
+    margin: 20px auto;
+    padding: 25px;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+.nav{
+    margin: 20px;
+    justify-content: center;
+}nav {
+    background-color: rgb(43, 42, 42);
+    padding: 10px 0;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: fit-content;
+}
+.nav-link {
+    color: white !important; /* Texto oscuro */
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.nav-link.active {
+    color: white; /* Azul Bootstrap para el activo */
+}
+
+.nav-link.disabled {
+    color: white;
+}
