@@ -23,7 +23,7 @@ function maquina(contenedor,texto,intervalo){
          clearInterval(timer);
          tagHtml.innerHTML = tagHtml.innerHTML.substr(0,longitud);
 
-         maquina("typer",texto,100);
+         maquina("typer",texto,1000);
          return true;
       } else {
          // En caso contrario.. seguimos
